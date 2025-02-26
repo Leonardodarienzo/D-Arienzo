@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { TerzoComponent } from './terzo/terzo.component';
+import { SecondoComponent} from './secondo/secondo.component';
+import { QuartoComponent } from './quarto/quarto.component';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +11,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'darienzo-leonardo-filab';
+  burzum: string = "app";
 }
